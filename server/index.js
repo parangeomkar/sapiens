@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 const connectionString = process.env.CONNECTION_STRING;
 
 app.use(cors({
-    origin: ["https://sapiensclient.netlify.app"],
+    origin: ["http://localhost:3000"],
     methods: ["GET", "POST", "PATCH", "DELETE"],
     credentials: true
 }));
